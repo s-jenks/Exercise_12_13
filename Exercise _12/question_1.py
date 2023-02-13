@@ -3,7 +3,9 @@
 cheese = ['Cheddar','Stilton','Cornish Yarg']
 cheese+=['Oke','Gouda'] # This has printed separately due to there being no square brackets and does not recognise it as a list
 # item.
-# You can add two or more items by adding a comma and a square bracket
+print(cheese)
+# You can add two or more items by using the extend method which allows for multiple items to be added.
+cheese.extend(['Red Leicester','Mozerella'])
 print(cheese)
 
 tup= 'Hello'
