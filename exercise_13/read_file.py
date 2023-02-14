@@ -1,6 +1,7 @@
-f = open("pelican.txt", "r")  # we are opening the file and reading the file
+f = open("pelican.txt", "r")  # we are opening the file and reading the file.
+# this is a file handle which has access to the file
 print(f.read())  # This gives us what is inside the file
-print(type(f))  # python multibyte string
+print(type(f))  # Text IO Wrapper which is a input and output class
 
 list = open("pelican.txt").readlines()  # We created a variable called list to read each line and create a list
 print(list)
