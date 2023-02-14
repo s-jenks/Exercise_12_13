@@ -1,7 +1,7 @@
 f = open("pelican.txt", "w")
 f = open("pelican.txt", "a")
 f.write("A wonderful bird is the pelican\n")
-f.write("His bill holds more than his belican")
+f.write("His bill holds more than his belican\n")
 f.close()
 # open the file to read
 f = open("pelican.txt", "r")
